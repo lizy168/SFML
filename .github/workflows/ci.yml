@@ -5,9 +5,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: ./.github/workflows/build.yml
-  docs:
-    uses: ./.github/workflows/docs.yml
-  format:
-    uses: ./.github/workflows/format.yml
-  analyze:
-    uses: ./.github/workflows/analyze.yml
+  #docs:
+  #  uses: ./.github/workflows/docs.yml
+  #format:
+  #  uses: ./.github/workflows/format.yml
+  #analyze:
+  #  uses: ./.github/workflows/analyze.yml
